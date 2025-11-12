@@ -1,7 +1,7 @@
 {
   "requiredSdkVersion": "~0.0.59",
-  "name": "CodeHighlighter",
-  "version": "0.1.0",
-  "javascriptEntrypointUrl": "CodeHighlighter.js",
+  "name": "CodeHighlight",
+  "version": "0.0.1",
+  "javascriptEntrypointUrl": "CodeHighlight.js",
   "localesBaseUrl": "https://cdn.dominio.com/pluginabc/"
 }
