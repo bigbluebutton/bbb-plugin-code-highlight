@@ -5,8 +5,8 @@ const path = require('path');
 module.exports = {
   entry: './src/index.tsx',
   output: {
-    filename: 'CodeHighlighter.js',
-    library: 'CodeHighlighter',
+    filename: 'BbbPluginCodeHighlight.js',
+    library: 'BbbPluginCodeHighlight',
     libraryTarget: 'umd',
     publicPath: '/',
     globalObject: 'this',

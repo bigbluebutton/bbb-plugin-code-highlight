@@ -2,6 +2,6 @@
   "requiredSdkVersion": "~0.0.59",
   "name": "CodeHighlight",
   "version": "0.0.1",
-  "javascriptEntrypointUrl": "CodeHighlight.js",
+  "javascriptEntrypointUrl": "BbbPluginCodeHighlight.js",
   "localesBaseUrl": "https://cdn.dominio.com/pluginabc/"
 }
