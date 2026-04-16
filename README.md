@@ -29,7 +29,7 @@ And for the dark theme:
 To build the plugin for production use, follow these steps:
 
 ```bash
-cd $HOME/src/plugin-code-highlight
+cd $HOME/src/bbb-plugin-code-highlight
 npm ci
 npm run build-bundle
 ```
