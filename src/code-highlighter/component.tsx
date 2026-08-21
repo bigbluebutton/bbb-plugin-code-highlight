@@ -27,7 +27,7 @@ function CodeHighlighter({ pluginUuid: uuid }: CodeHighlighterProps): React.Reac
   useEffect(() => {
     if (responseLoadedChatMessage.data) {
       const messagesToHighlight = responseLoadedChatMessage.data.filter(
-        (message) => message.message.search(CODE_BLOCK_REGEX) !== -1,
+        (message) => message.message?.search(CODE_BLOCK_REGEX) > -1,
       ).map((message) => {
         const codeLanguageIndex = message.message.search(CODE_LANGUAGE_REGEX);
         let codeLanguage = '';
